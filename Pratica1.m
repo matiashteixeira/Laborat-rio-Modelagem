@@ -26,7 +26,7 @@ end
 A = [ 1 1 6; 5 -2 1; 8 2 -3];
 B = [ 2 9; -5 -1; 9 2];
 
-y = A;
+y = B;
 
 [linha, coluna] = size(y);
 x = false;
@@ -49,7 +49,7 @@ end
 A = [ 1 1 6; 5 -2 1; 8 2 -3];
 B = [ 2 9; -5 -1; 9 2];
 
-y = B;
+y = A;
 
 [linha, coluna] = size(y);
 x = false;

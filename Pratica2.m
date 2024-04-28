@@ -45,7 +45,7 @@ y = zeros(1,10);
 y(1) = 10;
 x = 2;
 
-for n = 2:12
+for n = 2:10
     y(n) = x + 2*y(n-1);
 end
 
@@ -64,3 +64,6 @@ for n = 3:10
 end
 
 disp(y);
+
+t = 0:9;
+stem(t,y);
